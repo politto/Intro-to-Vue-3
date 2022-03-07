@@ -27,7 +27,7 @@
             <p v-else-if="inventory <=10 && inventory >0">Almost Sold out!</p>
             <p v-else>Out of Stock</p>
             <br>
-            <p v-if="onSale==true" style = "color: rgb(202, 0, 0);">on SALE</p>
+            <p v-if="inventory > 0 && inventory<=10" style = "color: rgb(202, 0, 0);">on SALE</p>
             
           </div>
         </div>
