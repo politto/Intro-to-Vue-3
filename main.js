@@ -1,6 +1,7 @@
 const app = Vue.createApp({
     data() {
         return {
+            inventory:0,
             cart:0,
             product: 'Socks',
             brand: 'Vue Mastery',
@@ -19,6 +20,8 @@ const app = Vue.createApp({
         },
         updateImage(variantImage) {
             this.image = variantImage
-        }
+        },
+        
+        
     }
 })
