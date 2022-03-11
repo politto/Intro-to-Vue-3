@@ -9,8 +9,8 @@ app.component('product-detail',{
     /*html*/
     `
     <ul>
-          <li v-for="detail in details">{{ detail }}</li>
-        </ul>
+        <li v-for="detail in details">{{ detail }}</li>
+    </ul>
     <div class="product-details">
         <p>Socks for stand user</p>
       </div>
