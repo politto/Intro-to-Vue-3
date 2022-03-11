@@ -10,7 +10,11 @@ const app = Vue.createApp({
             this.cart.push(id)
         },
         downdateCart(id){
-            this.cart.pop(id)
+            //this.cart.pop(id)
+            const index = this.cart.indexOf(id)
+            if(index>0){
+                index.splice(index,1)
+            }
         }
     }
 })
